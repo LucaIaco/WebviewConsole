@@ -1,6 +1,14 @@
 # WebviewConsole
 WebviewConsole is a simple iOS tool written in Swift, which provides you the ability to get webviews console logs and execute javascript code, all directly within your iOS app. 
 
+## Intro
+
+<table>
+    <tr>
+        <td style="text-align:center"><img src="images/intro.gif"/></td>
+    </tr>
+</table>
+
 The WebviewConsole presents a separate UIWindow which gives you access to the webviews console and perform basic operation, such as executing javascript code.
 By default the tool will **try** to auto-detect all the webviews currently loaded into the app (visible or not). You can also decide to disable the auto-detect feature and track 
 the webviews manually based on your needs. Currently, the tool is able to show right away any console.log/info/warn/error printed by the webview in the console, in the same way as it would be for an ispected webview through Safari or Chrome
